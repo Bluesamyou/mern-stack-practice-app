@@ -12,6 +12,6 @@ const exerciseSchema = new Schema({
     timestamps : true
 })
 
-const Exercise = mongoose.Model('Exercise', exerciseSchema); 
+const Exercise = mongoose.model('Exercise', exerciseSchema); 
 
 module.exports = Exercise;
