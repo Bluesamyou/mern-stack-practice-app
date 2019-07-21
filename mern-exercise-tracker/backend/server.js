@@ -17,7 +17,7 @@ mongoose.connect(uri, {useNewUrlParser : true, useCreateIndex : true});
 const connection = mongoose.connection; 
 
 connection.once('open', () => {
-    console.log("Established connection to MongoFB Server")
+    console.log("Established connection to MongoDB Server")
 })
 
 app.listen(port, () => {
